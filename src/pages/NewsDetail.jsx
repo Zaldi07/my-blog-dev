@@ -19,7 +19,7 @@ const NewsDetail = () => {
       document.querySelector("html")?.classList.add("dark");
     }
     console.log("use effect berjalan dan theme  berubah");
-  });
+  }, [theme]);
 
   return (
     <div className="bg-white dark:bg-gray-800 w-full h-screen p-4 mx-auto">
