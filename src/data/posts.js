@@ -1,4 +1,5 @@
 import img from "../assets/react.js.png";
+import img2 from "../assets/"
 export const posts = [
   {
     id: 1,

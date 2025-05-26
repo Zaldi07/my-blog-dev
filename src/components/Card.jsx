@@ -12,7 +12,9 @@ const Card = ({ post }) => {
       <h2 className="text-xl font-bold text-gray-800">{post.title}</h2>
       <p className="text-sm text-gray-500 mb-2">{post.date}</p>
       <p className="text-gray-600">{post.excerpt}</p>
-      <Link to={`/newsdetail/${post.id}`}>read more</Link>
+      <Link to={`/newsdetail/${post.id}`}>
+        <p className="text-sm hover:underline mt-2">Read More</p>
+      </Link>
     </div>
   );
 };
